@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    width: 65%;
+    margin: 0px auto;
+    padding-bottom: 60px;
+}
+
+h1{
+    margin-top: 60px;
+    margin-bottom: 25px;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+h3{
+    margin-top: 60px;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+p{
+    font-size: 15px;
+    line-height: 25px;
+}
+
+ol{
+    font-size: 15px;
+    line-height: 25px;
+    padding-left: 18px;
+    margin: 20px 0px;
+}
+
+li{
+    padding-left: 15px;
+    margin: 10px 0px;
+}
