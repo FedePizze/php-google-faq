@@ -55,7 +55,21 @@ else {
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
+    <header>
+        <div>
+            <nav>
+                <img src="LOGO.jpg" alt="">
+                <ul>
+                    <li>Introduzione</li>
+                    <li>Norme sulla privacy</li>
+                    <li>Termini di servizio</li>
+                    <li>Tecnologie</li>
+                    <li>Domande frequenti</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
         <?php foreach ($faqs as $key => $faq) { ?>
             <h1><?php echo $faq['title']; ?></h1>
             <p><?php echo $faq['text']; ?></p>
@@ -77,6 +91,22 @@ else {
                 <p><?php echo $faq['text3']; ?></p>
             <?php } ?>
         <?php } ?>
-    </div>
+    </main>
+    <footer>
+        <div class="container" id="containerFooter">
+            <nav>
+                <ul>
+                    <li>Google</li>
+                    <li>Tutto su Google</li>
+                    <li>Privacy</li>
+                    <li>Termini</li>
+                </ul>
+            </nav>
+            <select name="" id="">
+                <option value="Italiano">Italiano</option>
+                <option value="Inglese">Inglese</option>
+            </select>
+        </div>
+    </footer>
 </body>
 </html>
